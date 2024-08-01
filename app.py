@@ -66,8 +66,8 @@ logger = logging.getLogger("uvicorn")
 # CONFIGURE OPENTELEMETRY
 
 resource = Resource.create({
-    "service.name": "easytravel-ai",
-    "service.version": "0.1.0"
+    "service.name": "suraj_easytravel-ai",
+    "service.version": "0.1.1"
 })
 
 provider = TracerProvider(resource=resource)
